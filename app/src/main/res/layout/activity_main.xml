@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    tools:context="school.ongis.buildinglayout.MainActivity">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/profile"
+        android:id="@+id/image_view_1"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text_ongis_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:layout_marginBottom="90dp"
+        android:text="Build Your Own Bussiness Here" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:text="Asrul Sani Ariesandy" />
+    <TextView
+        android:id="@+id/text_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_marginBottom="70dp"
+        android:text="BACKEND DEVELOPER" />
+</LinearLayout>

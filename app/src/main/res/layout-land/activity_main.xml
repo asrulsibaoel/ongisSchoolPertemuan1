@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/view_image_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile"/>
+    <TextView
+        android:layout_centerVertical="true"
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/view_image_2"
+        android:textColor="#000000"
+        android:text="Asrul Sani Ariesandy"
+        />
+    <TextView
+        android:layout_centerVertical="true"
+        android:id="@+id/text_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_below="@+id/text_name"
+        android:layout_toRightOf="@+id/view_image_2"
+        android:textColor="#000000"
+        android:text="BACKEND DEVELOPER"
+        />
+    <TextView
+        android:id="@+id/text_jargon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Build Your Own Bussiness Here"
+        />
+</RelativeLayout>
